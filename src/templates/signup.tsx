@@ -1,11 +1,12 @@
 //import components
-
+import {InputContainer} from "../molecules/inputContainer";
+import {CenterContainer} from "../atoms/centerContainer";
 
 const Signup = () => {
     return (
-        <div>
-            안녕하세요.
-        </div>
+        <CenterContainer>
+            <InputContainer />
+        </CenterContainer>
     );
 };
 
